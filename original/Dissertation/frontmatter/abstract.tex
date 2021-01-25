@@ -1,0 +1,19 @@
+%
+% File: abstract.tex
+% Author: V?ctor Bre?a-Medina
+% Description: Contains the text for thesis abstract
+%
+% UoB guidelines:
+%
+% Each copy must include an abstract or summary of the dissertation in not
+% more than 300 words, on one side of A4, which should be single-spaced in a
+% font size in the range 10 to 12. If the dissertation is in a language other
+% than English, an abstract in that language and an abstract in English must
+% be included.
+
+\chapter*{Abstract}
+\begin{SingleSpace}
+\initial{X}-Ray diffraction strain measurements were simulated using python3 and fit using linear regression to obtain stress tensor components. Bayesian (PyMC3) methods were utilised successfully to achieve a higher quality of fit for measurements with additive error distributions, though little improvement was noted for samples with errors drawn from one distribution.\\
+In the case of measurements with extreme outliers, robust Bayesian regression (wherein the likelihood function of the Bayesian regression was set to a Student's T distribution) and robust Bayesian regression with automated outlier detection, derived from a Bernoulli distribution , both yielded fits with bi-modal distributions which more accurately depicted the uncertainties arising from the additional noise in grain sampling statistics than the fits resulting from Least-Squares regression, which were often overly confident and incorrectly skewed by the outliers. Furthermore, the extent of the prior distribution's effects on the fit outcome was examined, finding that numerical changes to the prior distributions resulted in a marginal effect on fit outcome, except in cases where the prior was overly restrictive, while changes to the likelihood function yielded significant improvements in quality of fit for samples with additive error distributions.
+\end{SingleSpace}
+\clearpage
