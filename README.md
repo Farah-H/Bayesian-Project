@@ -17,7 +17,14 @@ Test Stress Tensor:
     a) it is better at recognising uncertainty (LS can be very certain of inaccurate results)
     b) stress tensor estimate is consistently more accurate
 
+
+__Example 1__
 ![](s93D.png)
+
+
+
+__Example 2__
+![](s103d.png)
 
 2. Calibration Experiment successfully carried out to determine appropriate prior stength.
 
@@ -25,6 +32,8 @@ Test Stress Tensor:
 
 3. Outlier detection was carried out successfully, but yielded a minor improvement to the bayesian fit for the samples tested. 
 
+
+![](outlierS9.png)
 
 
 ## Iteration 2 (In Progress)
@@ -34,6 +43,7 @@ Test Stress Tensor:
 
 ## Iteration 3 
 - Use Python Flask to create a simple interface
+
 ## Iteration 4
 - Full deployment on AWS
 - CI/CD using Jenkins
