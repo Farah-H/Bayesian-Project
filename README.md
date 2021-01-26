@@ -10,7 +10,7 @@ NOTE: Least-Squares regression assumes errors are Normally distributed, which is
 
 Test Stress Tensor:
 
-![](true_s.png)
+![](images/true_s.png)
 
 ## Iteration 1 (Current)
 1. pymc3 used to infer stress tensor components `s11` and `s22` the result is superior to Least-Squares regression in samples with additive error distribution in the following ways 
@@ -19,21 +19,21 @@ Test Stress Tensor:
 
 
 __Example 1__
-![](s93D.png)
+![](images/s93D.png)
 
 
 
 __Example 2__
-![](s103d.png)
+![](images/s103d.png)
 
 2. Calibration Experiment successfully carried out to determine appropriate prior stength.
 
-![](prior.png)
+![](images/prior.png)
 
 3. Outlier detection was carried out successfully, but yielded a minor improvement to the bayesian fit for the samples tested. 
 
 
-![](outlierS9.png)
+![](images/outlierS9.png)
 
 
 ## Iteration 2 (In Progress)
